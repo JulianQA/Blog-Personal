@@ -1,0 +1,105 @@
+:root {
+    --primary-color: #805959;
+    --secondary-color: #FFB3B3;
+    --third-color: #808080;
+    --just-white: #FFFFFF;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/imgs/cascade-tiny.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    margin: 0 auto;
+}
+header .header__title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: center;
+}
+header .header__title img {
+    width: 40px;
+    height: 40px;
+}
+ header .header__about {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color:var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+}
+main .main__title {
+    text-align: start;
+    margin-left: 25px;
+    font-size: 6rem;
+    font-weight: bold;
+    color: var(--just-white);
+}
+main .main__paragraph {
+    margin-top: 40px;
+    margin-left: 25px;
+    font-size: 2.4rem;
+    text-align: start;
+    color: var(--just-white);
+}
+
+main .main__button {
+    display: inline-block;
+    margin-top: 40px ;
+    padding: 8px;
+    width: fit-content;
+    align-self: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+}
+footer {
+    width: 100%;
+    height: 15%;
+}
+
+footer .footer__social-media {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .footer__social-media a img{
+    filter: invert(100%) sepia(46%) saturate(0%) hue-rotate(323deg) brightness(112%) contrast(100%);
+    width: 40px;
+    height: 40px;
+}
