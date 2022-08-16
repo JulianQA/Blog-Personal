@@ -18,6 +18,7 @@ html {
 body {
     width: 100%;
     height: 100vh;
+    min-width: 320px;
     background-image: url("../assets/imgs/cascade-tiny.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,6 +34,7 @@ header {
     align-items: center;
     width: 100%;
     height: 15%;
+    min-width: 320px;
     margin: 0 auto;
 }
 header .header__title {
@@ -58,6 +60,7 @@ main {
     justify-content: center;
     width: 100%;
     height: 70%;
+    min-width: 320px;
 }
 main .main__title {
     text-align: start;
@@ -89,6 +92,7 @@ main .main__button {
 footer {
     width: 100%;
     height: 15%;
+    min-width: 320px;
 }
 
 footer .footer__social-media {
