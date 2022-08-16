@@ -61,6 +61,8 @@ main {
     width: 100%;
     height: 70%;
     min-width: 320px;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 main .main__title {
     text-align: start;
